@@ -1,0 +1,41 @@
+[
+  {
+    "ProdukID" : 1,
+    "nama" : "Neon Tetra",
+    "gambar" : ["/img/neon1.jpg","/img/neon2.jpg","/img/neon3.jpg","/img/neon4.jpg","/img/neon5.jpg" ],
+    "ukuran" : ["S", "M", "L", "XL"],
+    "deskripsi" : "Ikan Neon Tetra adalah ikan kecil yang berasal dari perairan blackwater (air hitam) di lembah Sungai Amazon, Amerika Selatan. Mereka sangat populer di kalangan penghobi akuarium karena warnanya yang mencolok dan sifatnya yang damai.",
+    "ciri" : [
+      "Terdapat satu garis horizontal berwarna biru elektrik yang membentang dari bagian hidung/mata hingga ke pangkal ekor. Garis ini akan bersinar terang, terutama di bawah cahaya akuarium.",
+      "Tepat di bawah garis biru, terdapat garis berwarna merah cerah. Garis merah ini dimulai dari bagian tengah tubuh dan memanjang hingga ke pangkal ekor.",
+      "Bagian perut di bawah garis merah biasanya berwarna perak atau putih. Siripnya sebagian besar transparan.",
+      "Mereka adalah ikan kecil. Ukuran dewasa maksimalnya biasanya hanya mencapai sekitar 4 cm (1.5 inci)."
+    ]
+  },
+  {
+    "ProdukID" : 2,
+    "nama" : "Cardinal Tetra",
+    "gambar" : ["/img/cardinal1.jpg","/img/cardinal2.jpg","/img/cardinal3.jpg","/img/cardinal4.jpg","/img/cardinal5.jpg" ],
+    "ukuran" : ["S", "M", "L", "XL"],
+    "deskripsi" : "Cardinal Tetra berasal dari habitat yang serupa dengan Neon Tetra, yaitu perairan blackwater (air hitam) di anak sungai Orinoco dan Rio Negro, Amerika Selatan. Mereka sangat dicintai karena warna merah dan birunya yang menyala lebih dominan daripada Neon Tetra.",
+    "ciri" : [
+      "Garis merah cerah pada Cardinal Tetra membentang penuh dari hidung (atau insang) hingga ke pangkal ekor.",
+      "Pada Neon Tetra, garis merah hanya dimulai dari tengah tubuh hingga ekor, menyisakan area perak/putih di bagian perut depan.",
+      "Secara umum, garis biru neon dan merah pada Cardinal Tetra terlihat lebih tebal dan lebih intens, memberikan tampilan yang lebih terang di dalam akuarium.",
+      "Cardinal Tetra biasanya dapat tumbuh sedikit lebih besar daripada Neon Tetra, mencapai hingga sekitar 5 cm."
+    ]
+  },
+  {
+    "ProdukID" : 3,
+    "nama" : "Rummy Nose Tetra",
+    "gambar" : ["/img/rn1.jpg","/img/rn2.jpg","/img/rn3.jpg","/img/rn4.jpg","/img/rn5.jpg" ],
+    "ukuran" : ["S", "M", "L", "XL"],
+    "deskripsi" : "Nama Rummy Nose Tetra sebenarnya merujuk pada tiga spesies yang sangat mirip (Hemigrammus rhodostomus, Hemigrammus bleheri, dan Petitella georgiae), yang semuanya memiliki ciri khas hidung merah menyala dan perilaku bergerombol yang luar biasa. Ikan ini berasal dari sungai-sungai blackwater (air hitam) di Cekungan Amazon, seperti Rio Negro di Amerika Selatan.",
+    "ciri" : [
+      "ciri yang paling menonjol. Bagian moncong dan kepala depan ikan ini berwarna merah cerah, seringkali terlihat seperti (hidung merah) yang menyala. Intensitas warna merah ini adalah indikator kesehatan dan kenyamanan ikan. Jika ikan stres atau kondisi airnya buruk, warna merahnya akan memudar atau hilang",
+      "Ekornya memiliki pola garis horizontal hitam dan putih yang tegas, biasanya tiga garis hitam berselingan dengan dua garis putih yang sangat kontras.",
+      "Tubuh berbentuk torpedo yang ramping, mengkilap, dan keperakan, khas ikan tetra.",
+      "Ukuran dewasa berkisar antara 4 hingga 5 cm."
+    ]
+  }
+]

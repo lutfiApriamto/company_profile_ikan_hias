@@ -40,7 +40,7 @@ export default function AboutPage() {
     
       useEffect(() => {
         // Loader selama 3 detik
-        const timer = setTimeout(() => setLoading(false), 3000);
+        const timer = setTimeout(() => setLoading(false), 2000);
         return () => clearTimeout(timer);
       }, []);
 
@@ -73,7 +73,7 @@ export default function AboutPage() {
                         Siapa Kami
                     </p>
                     <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
-                        Mengenal Pokdakan <span className="text-teal-300">Nusantara</span>
+                        Mengenal Pokdakan <span className="text-teal-300">Curug</span>
                     </h1>
                     <p className="text-xl max-w-2xl mx-auto font-light text-teal-100">
                         Lebih dari sekadar kelompok, kami adalah keluarga pembudidaya yang bersemangat melestarikan dan mengembangkan potensi ikan hias Indonesia.
@@ -102,7 +102,7 @@ export default function AboutPage() {
                             Perjalanan Kami
                         </h2>
                         <p className="text-xl mb-4 leading-relaxed text-gray-600">
-                            Didirikan pada tahun {aboutData.established} di Desa Curug, Pokdakan Nusantara berawal dari inisiatif kecil untuk menanggulangi kesulitan pemasaran budidaya ikan hias. 
+                            Pokdakan Curug berawal dari inisiatif kecil untuk menanggulangi kesulitan pemasaran budidaya ikan hias. 
                         </p>
                         <p className="text-xl leading-relaxed text-gray-600">
                             Kami fokus pada budidaya ikan Tetra (Neon, Cardinal, Rummy Nose) karena potensi pasarnya yang besar dan keindahan visualnya. Kini, kami telah berkembang menjadi kelompok yang menaungi lebih dari {aboutData.anggota} dengan standar kualitas budidaya terbaik.

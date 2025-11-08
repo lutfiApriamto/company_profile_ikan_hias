@@ -21,7 +21,7 @@ export default function ContactPage() {
     
       useEffect(() => {
         // Loader selama 3 detik
-        const timer = setTimeout(() => setLoading(false), 3000);
+        const timer = setTimeout(() => setLoading(false), 2000);
         return () => clearTimeout(timer);
       }, []);
     

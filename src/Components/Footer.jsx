@@ -24,9 +24,8 @@ export default function Footer(){
             <div>
                 <h4 className="text-lg font-semibold mb-3 text-teal-400">Kontak</h4>
                 <ul className="space-y-2 text-gray-400">
-                    <li><p className="flex items-center gap-2">📍 Desa Curug, [Nama Kota]</p></li>
-                    <li><p className="flex items-center gap-2">📞 [Nomor Kontak]</p></li>
-                    <li><a href="/kontak" className="text-teal-400 font-semibold hover:text-teal-300 transition mt-2 block">Email Kami →</a></li>
+                    <li><p className="flex items-center gap-2">📍 Desa Curug, Kabupaten Bogor Jawabarat</p></li>
+                    <li><p className="flex items-center gap-2">📞 +62 813-8221-5564</p></li>
                 </ul>
             </div>
         </div>

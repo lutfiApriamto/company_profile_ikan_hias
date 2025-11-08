@@ -4,13 +4,13 @@ export default function Footer(){
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-left">
             <div className="md:col-span-2">
                 <h3 className="text-2xl font-bold mb-3 text-white">
-                    Pokdakan Nusantara
+                    Pokdakan curug
                 </h3>
                 <p className="mb-4 text-gray-400">
                     Kelompok Pembudidaya Ikan Desa Curug. Berkomitmen pada kualitas dan keberlanjutan.
                 </p>
                 <p className="text-sm text-gray-500 mt-6">
-                    © {new Date().getFullYear()} Pokdakan Nusantara. All rights reserved.
+                    © {new Date().getFullYear()} Pokdakan curug. All rights reserved.
                 </p>
             </div>
             <div>

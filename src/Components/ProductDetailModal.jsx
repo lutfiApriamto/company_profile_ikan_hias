@@ -8,7 +8,7 @@ export default function ProductDetailModal({ isOpen, onClose, product }) {
 
     // Nomor WhatsApp dan Pesan
     const whatsappNumber = "6281382215564";
-    const whatsappMessage = `Halo Pokdakan Nusantara, saya tertarik untuk membeli ikan ${product.nama}. Mohon info harga dan ketersediaan ukurannya. Terima kasih!`;
+    const whatsappMessage = `Halo Pokdakan curug, saya tertarik untuk membeli ikan ${product.nama}. Mohon info harga dan ketersediaan ukurannya. Terima kasih!`;
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
     
     // State untuk gambar utama di dalam modal
@@ -77,7 +77,7 @@ export default function ProductDetailModal({ isOpen, onClose, product }) {
                     <div className="p-8">
                         <h2 className="text-4xl font-extrabold text-gray-900 mb-2">{product.nama}</h2>
                         <h4 className="text-xl font-semibold text-teal-600 mb-6">
-                            Ikan Hias Terbaik dari Pokdakan Nusantara
+                            Ikan Hias Terbaik dari Pokdakan curug
                         </h4>
 
                         {/* Deskripsi */}

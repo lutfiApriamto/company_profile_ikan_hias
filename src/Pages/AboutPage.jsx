@@ -93,7 +93,7 @@ export default function AboutPage() {
                     <div className="md:order-2">
                         <img 
                             src="/img/pokdakan2.jpg" // Ganti dengan foto tim/lokasi
-                            alt="Tim Pokdakan Nusantara"
+                            alt="Tim Pokdakan curug"
                             className="rounded-3xl shadow-2xl ring-8 ring-teal-50 object-cover w-full h-96"
                         />
                     </div>
@@ -202,7 +202,7 @@ export default function AboutPage() {
                     Kunjungi Lokasi Budidaya Kami
                 </h2>
                 <p className="text-xl mb-8 font-light max-w-3xl mx-auto">
-                    Pokdakan Nusantara berlokasi di {aboutData.location}. 
+                    Pokdakan curug berlokasi di {aboutData.location}. 
                     Kami terbuka untuk kunjungan mitra dan edukasi budidaya.
                 </p>
                 <a

@@ -10,7 +10,7 @@ import Navbar from "../Components/Navbar";
 const contactInfo = {
     address: "Desa Curug, Kabupaten Bogor, Jawa Barat",
     phone: "+62 813-8221-5564 (Admin Pokdakan)",
-    email: "nusantarapokdakan@email.com",
+    email: "curugpokdakan@email.com",
     operationHours: "Senin - Sabtu: 08:00 - 17:00 WIB",
     mapLink: "https://maps.app.goo.gl/NZ4moQ3hsaBwZvTn9" // Ganti dengan link Google Maps yang sebenarnya
 };
@@ -195,7 +195,7 @@ export default function ContactPage() {
                             style={{ border: 0 }} 
                             allowFullScreen="" 
                             loading="lazy"
-                            title="Google Maps Lokasi Pokdakan Nusantara"
+                            title="Google Maps Lokasi Pokdakan curug"
                         ></iframe>
                     </div>
                     <p className="text-center mt-4 text-gray-600">

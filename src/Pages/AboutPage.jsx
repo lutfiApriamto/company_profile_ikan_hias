@@ -206,7 +206,7 @@ export default function AboutPage() {
                     Kami terbuka untuk kunjungan mitra dan edukasi budidaya.
                 </p>
                 <a
-                    href="#" // Ganti dengan link Google Maps Desa Curug
+                    href="https://maps.app.goo.gl/NZ4moQ3hsaBwZvTn9" // Ganti dengan link Google Maps Desa Curug
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-8 py-3 bg-white text-teal-600 rounded-full font-bold text-lg hover:bg-gray-100 transition shadow-xl"

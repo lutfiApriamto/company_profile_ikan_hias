@@ -7,7 +7,7 @@ import Navbar from "../Components/Navbar";
 // Data fiktif untuk halaman Tentang Kami
 const aboutData = {
     established: "2018",
-    location: "Desa Curug, Kabupaten [Nama Kota]",
+    location: "Desa Curug, Kabupaten bogor",
     anggota: "50+ Pembudidaya Aktif",
 };
 

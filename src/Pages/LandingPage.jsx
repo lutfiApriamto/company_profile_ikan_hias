@@ -221,6 +221,66 @@ export default function LandingPage() {
         </div>
       </motion.section>
 
+      {/* 4.5. Apresiasi Mitra (Logo Hibah) - NEW SECTION */}
+      <motion.section
+        id="mitra-hibah"
+        variants={fadeIn}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+        className="py-16 px-6 md:px-12 bg-gray-50 text-center lg:px-36"
+      >
+        <h2 className="text-2xl md:text-3xl font-bold mb-10 text-gray-800">
+          Didukung Penuh Oleh Program Hibah Pemerintah
+        </h2>
+
+        {/* Container Logo dengan Staggered Animation */}
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ staggerChildren: 0.15 }}
+          className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center max-w-5xl mx-auto"
+        >
+          {/* Logo Data */}
+          {[
+            { 
+              src: "/img/logo-kemendikbud2.png", 
+              alt: "Logo Kemendikbud", 
+              style: "h-20 md:h-24 w-auto" 
+            },
+            { 
+              src: "/img/logo-KEMDIKTISAINTEK.png", 
+              alt: "Logo KEMDIKTISAINTEK BERDAMPAK", 
+              style: "h-20 md:h-28 w-auto" 
+            },
+            { 
+              src: "/img/logo gundar.png", 
+              alt: "Logo Universitas Gunadarma", 
+              style: "h-20 md:h-24 w-auto" 
+            },
+          ].map((logo, index) => (
+            <motion.div
+              key={index}
+              variants={itemFade} // Menggunakan animasi itemFade yang sudah didefinisikan
+              className="p-4 bg-white rounded-xl shadow-lg flex justify-center items-center h-32 hover:scale-105 transition duration-500 cursor-pointer"
+            >
+              <img
+                src={logo.src}
+                alt={logo.alt}
+                className={logo.style}
+              />
+            </motion.div>
+          ))}
+        </motion.div>
+        
+        <p className="mt-10 text-sm text-gray-500">
+          Proyek ini merupakan kolaborasi antara Pokdakan Curug dan Universitas Gunadarma, didanai oleh Program KEMDIKTISAINTEK.
+        </p>
+
+      </motion.section>
+
+
       {/* 5. CTA Section (Revisi: Font lebih tegas, Tombol lebih besar) */}
       <motion.section
         variants={fadeIn}

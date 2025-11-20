@@ -30,9 +30,15 @@ export default function ContactPage() {
     // State dan fungsi handling form bisa ditambahkan di sini, misalnya handleSubmit
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
+        // alert(`data berhasil terkirim`)
+        // window.location.reload()
+    };
+
+    const handleSumbmit = (e) => {
+        e.preventDefault()
         alert(`data berhasil terkirim`)
         window.location.reload()
-    };
+    }
 
     // Animasi konsisten
     const fadeIn = {
@@ -85,7 +91,7 @@ export default function ContactPage() {
                             <h2 className="text-3xl font-bold text-gray-900 border-l-4 border-teal-500 pl-4 mb-8">
                                 Kirim Pesan Cepat
                             </h2>
-                            <form className="space-y-6">
+                            <form className="space-y-6" onSubmit={handleSumbmit}>
                                 {/* Input Name */}
                                 <input
                                     type="text"

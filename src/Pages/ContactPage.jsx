@@ -30,6 +30,8 @@ export default function ContactPage() {
     // State dan fungsi handling form bisa ditambahkan di sini, misalnya handleSubmit
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
+        alert(`data berhasil terkirim`)
+        window.location.reload()
     };
 
     // Animasi konsisten
